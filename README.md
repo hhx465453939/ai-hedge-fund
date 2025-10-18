@@ -46,6 +46,7 @@ By using this software, you agree to use it solely for learning purposes.
 - [How to Run](#how-to-run)
   - [⌨️ Command Line Interface](#️-command-line-interface)
   - [🖥️ Web Application](#️-web-application)
+- [Agent Documentation](#agent-documentation)
 - [How to Contribute](#how-to-contribute)
 - [Feature Requests](#feature-requests)
 - [License](#license)
@@ -138,6 +139,37 @@ Please see detailed instructions on how to install and run the web application [
 
 <img width="1721" alt="Screenshot 2025-06-28 at 6 41 03 PM" src="https://github.com/user-attachments/assets/b95ab696-c9f4-416c-9ad1-51feb1f5374b" />
 
+
+
+## Agent Documentation
+
+The AI Hedge Fund uses a multi-agent system where each agent analyzes stocks from different perspectives. We've created comprehensive documentation to help you understand, customize, and create new agents.
+
+### 📚 Documentation Resources
+
+- **[Agent Specification](docs/agents/AGENT_SPEC.md)** - Complete technical specification for agent configuration format
+- **[Agent Guide](docs/agents/AGENT_GUIDE.md)** - Step-by-step guide for creating and customizing agents
+- **[Example Agents](docs/agents/examples/)** - Fully documented example configurations:
+  - [Fundamentals Analyst](docs/agents/examples/fundamentals_analyst.agent.md) - Quantitative fundamental analysis
+  - [Warren Buffett](docs/agents/examples/warren_buffett.agent.md) - Value investing philosophy
+  - [Risk Manager](docs/agents/examples/risk_manager.agent.md) - Portfolio risk management
+
+### 🎯 Quick Links
+
+- **New to agents?** Start with the [Agent Guide](docs/agents/AGENT_GUIDE.md)
+- **Want to create an agent?** Follow the tutorial in [Creating Your First Agent](docs/agents/AGENT_GUIDE.md#creating-your-first-agent)
+- **Need a reference?** Check the [Agent Specification](docs/agents/AGENT_SPEC.md)
+- **Looking for examples?** Browse the [examples directory](docs/agents/examples/)
+
+### Agent Types
+
+The system includes three types of agents:
+
+1. **Analyst Agents** - Fast, rule-based analysis (fundamentals, technicals, sentiment, valuation)
+2. **Investor Agents** - LLM-powered agents emulating famous investors (Buffett, Lynch, Munger, etc.)
+3. **Manager Agents** - Portfolio-level decision making (risk management, portfolio allocation)
+
+For detailed information about each agent type and how they work together, see the [Agent Documentation README](docs/agents/README.md).
 
 ## How to Contribute
 
